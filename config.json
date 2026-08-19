@@ -47,5 +47,5 @@
 
   "maxIndividualAlerts": 6,
   "ntfyServer": "https://ntfy.sh",
-  "ntfyTopic": ""
+  "ntfyTopic": "blehwizard"
 }
