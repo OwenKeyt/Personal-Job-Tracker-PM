@@ -1,0 +1,10 @@
+import fs from "node:fs/promises";
+import { checkPrograms } from "../check.mjs";
+const programs = JSON.parse(await fs.readFile(new URL("../programs.json", import.meta.url), "utf8"));
+const cfg = { ntfyTopic: "", ntfyServer: "https://ntfy.sh" };
+const seen = { existing: "x" };
+console.log("Today (container):", new Date().toISOString().slice(0,10), "\n");
+const n = await checkPrograms(cfg, programs, seen);
+console.log(`\n-> ${n} windows fired on first pass`);
+const n2 = await checkPrograms(cfg, programs, seen);
+console.log(`-> ${n2} windows fired on second pass (must be 0 — dedupe check)`);

@@ -1,0 +1,51 @@
+{
+  "_comment": "Tuned for: bachelor's candidate, class of 2028, PM primary / DS secondary. Edit freely — every field is a plain regex list.",
+
+  "categories": ["pm"],
+  "_categories_note": "Upstream README sections to auto-accept. Add \"ds\" to widen to the 146-role Data Science/AI section. Start narrow; widening is one word, un-drowning yourself is not.",
+
+  "includeTitle": [
+    "product manage",
+    "product management",
+    "\\bAPM\\b",
+    "associate product",
+    "product intern",
+    "product analyst",
+    "technical program manage",
+    "\\bTPM\\b",
+    "product operations",
+    "product strategy",
+    "business analyst.*product",
+    "growth.*product"
+  ],
+
+  "excludeTitle": [
+    "\\bPhD\\b",
+    "\\bMBA\\b",
+    "master'?s",
+    "doctoral",
+    "new grad",
+    "full[- ]time",
+    "spring 202[67]",
+    "fall 202[67]",
+    "winter 202[67]",
+    "co-?op.*(spring|fall|winter)",
+    "product design",
+    "product marketing",
+    "\\bsales\\b",
+    "manufacturing",
+    "supply chain"
+  ],
+  "_excludeTitle_note": "product marketing and product design are excluded on purpose — they flood PM keyword searches and are a different recruiting track. Delete those two lines if you want them.",
+
+  "locationAllow": [],
+  "_locationAllow_note": "Empty = anywhere. To restrict: [\"CA$\", \"Seattle\", \"NYC\", \"Remote\"]. Careful — a lot of postings list many cities and this filters on ANY match.",
+
+  "excludeAdvancedDegree": true,
+  "excludeCitizenshipRequired": false,
+  "_eligibility_note": "excludeAdvancedDegree drops anything upstream marks with the graduate-cap emoji. This is the single highest-value filter you have: a large share of 'PM Intern' reqs at big companies are MBA-only and no public list separates them for you.",
+
+  "maxIndividualAlerts": 6,
+  "ntfyServer": "https://ntfy.sh",
+  "ntfyTopic": ""
+}

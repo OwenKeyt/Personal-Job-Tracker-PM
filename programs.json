@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Microsoft PM Intern",
+    "watchFrom": "2026-08-10",
+    "watchUntil": "2026-09-20",
+    "confidence": "reported",
+    "note": "Summer 2027 reqs expected to open mid-August 2026. Rolling review — the first 2-3 weeks matter more than your resume does.",
+    "url": "https://careers.microsoft.com/"
+  },
+  {
+    "name": "Meta RPM Intern",
+    "watchFrom": "2026-08-18",
+    "watchUntil": "2026-09-25",
+    "confidence": "reported",
+    "note": "RPM reported to open late August. Small cohort, fills fast.",
+    "url": "https://www.metacareers.com/"
+  },
+  {
+    "name": "Amazon PM / PM-T Intern",
+    "watchFrom": "2026-07-15",
+    "watchUntil": "2026-09-15",
+    "confidence": "reported",
+    "note": "Amazon posts earliest of the majors, July-August. Likely already live — check now.",
+    "url": "https://www.amazon.jobs/"
+  },
+  {
+    "name": "Databricks PM Intern",
+    "watchFrom": "2026-07-01",
+    "watchUntil": "2026-09-15",
+    "confidence": "confirmed live",
+    "note": "Summer 2027 PM Intern was posted as of mid-August 2026. SF / Mountain View / Bellevue. Wants SQL or Python familiarity.",
+    "url": "https://www.databricks.com/company/careers"
+  },
+  {
+    "name": "Salesforce APM Intern",
+    "watchFrom": "2026-07-10",
+    "watchUntil": "2026-09-30",
+    "confidence": "confirmed live",
+    "note": "Summer 2027 APM intern req was live as of July 2026.",
+    "url": "https://www.salesforce.com/company/careers/"
+  },
+  {
+    "name": "Google APM Intern",
+    "watchFrom": "2026-10-01",
+    "watchUntil": "2026-11-10",
+    "confidence": "reported",
+    "note": "THE tight one. Reported 2-4 week window around mid-October, then it closes. Roughly 40 spots against ~8,000 applicants. Have the resume and essays written before this fires.",
+    "url": "https://www.google.com/about/careers/applications/"
+  },
+  {
+    "name": "Duolingo PM Intern",
+    "watchFrom": "2026-08-20",
+    "watchUntil": "2026-09-30",
+    "confidence": "reported",
+    "note": "Reported to open late August consistently across tracked years.",
+    "url": "https://careers.duolingo.com/"
+  },
+
+  {
+    "_comment": "Everything below is an ESTIMATE from the general Aug-Nov cycle, not from company-specific data. Verify each against last year's posting date and tighten the window, or delete. Wrong dates here cost you nothing but a nudge; missing programs cost you the role.",
+    "name": "Second-wave APM programs (Uber, Atlassian, Adobe, LinkedIn, Snap, Dropbox)",
+    "watchFrom": "2026-09-01",
+    "watchUntil": "2026-09-08",
+    "confidence": "estimate — verify",
+    "note": "Generic reminder to sweep second-tier APM programs by hand. Replace this entry with real per-company windows once you've checked last cycle's dates.",
+    "url": "https://apmlist.org/"
+  },
+  {
+    "name": "Non-tech product roles sweep (fintech, CPG, media, health)",
+    "watchFrom": "2026-09-15",
+    "watchUntil": "2026-09-22",
+    "confidence": "estimate — verify",
+    "note": "The GitHub trackers are tech-only. Amex, Capital One, Mastercard, Nike, Disney and similar run real product internships that never appear there and skew friendlier to a liberal-arts applicant. Sweep manually.",
+    "url": "https://www.linkedin.com/jobs/"
+  }
+]
